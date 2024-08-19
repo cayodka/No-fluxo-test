@@ -1,0 +1,71 @@
+let button = document.getElementById("container-motoristas");
+
+button.addEventListener("click", function(){
+    let teladois = document.getElementById("teladois");
+    if (teladois.style.display === "none"){
+        teladois.style.display = "flex";
+    } else  {
+        teladois.style.display = "none";
+    }
+});
+
+let button2 = document.getElementById("container-motoristas");
+
+button2.addEventListener("click", function(){
+    let containerPai = document.getElementById("containerPai");
+
+    if (containerPai.style.display === "flex"){
+        containerPai.style.display = "none";
+    } else  {
+        containerPai.style.display = "flex";
+    }
+});
+
+let bt1 = document.getElementById("Cancelar");
+
+bt1.addEventListener("click", function(){
+    var teladois = document.getElementById("teladois");
+
+    if (teladois.style.display === "flex"){
+        teladois.style.display = "none";
+    } else  {
+        teladois.style.display = "flex";
+    }
+});
+
+let bt2 = document.getElementById("Cancelar");
+
+bt2.addEventListener("click", function(){
+    var containerPai = document.getElementById("containerPai");
+
+    if (containerPai.style.display === "none"){
+        containerPai.style.display = "flex";
+    } else  {
+        containerPai.style.display = "none";
+    }
+});
+
+
+let button3 = document.getElementById("Preço");
+
+button3.addEventListener("click", function(){
+    let telatres = document.getElementById("telatres");
+
+    if (telatres.style.display === "none"){
+        telatres.style.display = "flex";
+    } else  {
+        telatres.style.display = "none";
+    }
+});
+
+let button4 = document.getElementById("Preço");
+
+button4.addEventListener("click", function(){
+    let telatres = document.getElementById("telatres");
+
+    if (telatres.style.display === "flex"){
+        telatres.style.display = "none";
+    } else  {
+        telatres.style.display = "flex";
+    }
+});

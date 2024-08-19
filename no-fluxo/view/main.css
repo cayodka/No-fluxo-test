@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+ background-image: url(../assets/giphy.gif);
+ background-repeat:no-repeat;
+ background-size:cover;
+}   
+
+#containerPai{
+    display: flex;
+    justify-content: center center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+    margin-top: 12vh;
+}
+.container-mapa{
+    display: flex;
+    background-image: url(../assets/mapa-ezgif.com-crop.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45vh;
+    max-width: 45vh;
+    height: 45vh;
+}
+
+.container-motoristas {
+    display: flex; 
+}
+#user1, #user2, #user3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    height: 8vh;
+    width: 50vh;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    transition: 300ms linear;
+    background-color: rgba(231, 231, 231, 0.549);
+}
+
+button:hover{
+    transform: scale(1.05);
+    color: antiquewhite;
+}
+
+/* daqui para baixo e coisa da segunda tela */
+
+#teladois{
+    display: none;
+    justify-content: center center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    margin: auto;
+    margin-top: 30px;
+    gap: 20px;
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 15px;
+    height: 445px;
+    width: 250px;
+    background-color: rgba(240, 248, 255, 0.309);
+}
+
+strong{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+#botões-de-cancelar-e-preço{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+#Cancelar, #Preço, #bt1, #bt2, #bt3, #bt4{
+    height: 85px;
+    width: 125px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    transition: 300ms linear;
+    background-color: rgba(231, 231, 231, 0.549);
+}
+#cancelartelatres{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 85px;
+    width: 135px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    transition: 300ms linear;
+    background-color: rgba(195, 5, 5, 0.549);
+}
+
+#Cancelar, #Preço:hover{
+    transform: scale(1.05);
+    color: rgba(3, 3, 3, 0.524);
+}
+
+#telatres{
+    display: flex;
+    justify-content: center center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 40px;
+    height: 150%;
+    width: 150%;
+    background-color: rgba(240, 248, 255, 0.309);
+    margin-top: 12vh;
+    border: 2px solid rgba(0, 0, 0, 0.253);
+    border-radius: 15px;
+}
